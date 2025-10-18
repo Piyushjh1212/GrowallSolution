@@ -305,11 +305,9 @@ nav ul li a:hover {
 
 /* Product Card */
 .product-card {
-  background: #fff;
   border-radius: 15px;
   padding: 25px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #e0e0e0;
 }
 
 .business-plan{
@@ -321,10 +319,6 @@ nav ul li a:hover {
   color: #4cafef;
 }
 
-.product-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
-}
 
 .product-card img {
   width: 100%;
